@@ -1,0 +1,15 @@
+mkdir my_dbt_project
+mkdir my_dbt_project/models
+mkdir my_dbt_project/models/staging
+mkdir my_dbt_project/models/marts
+mkdir my_dbt_project/models/marts/customers
+mkdir my_dbt_project/tests
+mkdir my_dbt_project/macros
+mkdir my_dbt_project/scripts
+touch my_dbt_project/models/staging/stg_customers.sql
+touch my_dbt_project/models/marts/customers/customer_orders.sql
+touch my_dbt_project/tests/assert_customer_data.sql
+touch my_dbt_project/macros/my_custom_macro.sql
+touch my_dbt_project/scripts/data_validation.py
+touch my_dbt_project/dbt_project.yml
+touch my_dbt_project/README.md
